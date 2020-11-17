@@ -1,0 +1,82 @@
+<link rel="stylesheet" type="text/css" href="estilos.css">
+/*.NavButton
+
+.Titles
+.ExerciseTitle ->Almacenamiento secundario
+.ExerciseSubtitle -> Ejercicio para componer una frase
+#InstructionsDiv
+#Instructions -> Crea una frase...
+
+#GuessDiv
+
+#mainDiv
+*/
+
+
+
+body{
+	font-family: Georgia, "Bitstream Charter", serif;
+	background-color: #ffffff;
+	color: #000000;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.ExerciseTitle{
+	font-size: 200%;
+	color: #000000;
+}
+
+.ExerciseSubtitle{
+	font-size: 120%;
+	color: #9966ff;
+}
+
+/*BeginNavBarStyle*/
+button{
+height: 31px;
+margin-top: 2px;
+border-width: 2px;
+}
+div.NavButtonBar{
+	background-color: #000000;
+	text-align: center;
+	margin: 2px 0px 2px 0px;
+	clear: both;
+	font-size: 120%;
+	height: 35px;
+}
+
+.NavButton {
+	border-color: #FFFFFF;
+	border-style: solid;	
+	background-color: #FFFFFF;
+	color: #000000;	
+	font-weight: bold;
+	cursor: pointer;	
+}
+
+button:hover{
+margin-top: 2px;
+height: 31px;
+background-color:white;
+color: black;
+font-weight: bold;
+}
+
+#contenedor{
+height: 340px;}
+#contenedor2{
+height: 380px;}
+
+/*EndNavBarStyle*/
+
+body,
+input,
+textarea,
+.page-title span,
+.pingback a.url, .NavButton, button:hover, .FuncButton, .ExerciseTitle, .Titles, .Index, .StdDiv, #CheckButton1, .CardStyle{
+font-family: Georgia, "Bitstream Charter", serif;
+}
+.FuncButton, #CheckButton1{
+font-weight: bold;
+}
